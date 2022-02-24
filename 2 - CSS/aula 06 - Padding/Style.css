@@ -1,0 +1,16 @@
+body {
+    background: rgb(212, 212, 212);
+}
+
+p {
+    color: rgb(77, 75, 75);
+}
+
+.foto-principal {
+    width: 200px;
+    border: 2px solid white; /* Shorthand */
+    border-radius: 50%;
+    margin: 30px;
+    padding: 7px; /* Espaçamento interno */
+   
+}

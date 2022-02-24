@@ -1,0 +1,19 @@
+body {
+    background: grey;
+}
+
+.Verde {
+    color: green;
+}
+
+h3 {
+    color: red;
+}
+
+.foto {
+    width: 250px;
+}
+
+#TituloPrincipal {
+    color: yellow;
+}
