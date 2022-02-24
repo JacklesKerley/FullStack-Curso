@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+} /* reset */
+
+html, body {
+    height: 100%;
+} /*informar que o "backgroud é em toda a pagina*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(8,118,145,1) 75%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.social img {
+width: 33px;
+} /*tag aninhada

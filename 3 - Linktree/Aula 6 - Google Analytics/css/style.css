@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(8,118,145,1) 75%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.social {
+    display: flex; /*deixa tudo o que esta dentro da tag pai lado a lado */
+    justify-content: space-evenly; /*conteudo ao centro, funciona somente com display flex */
+    list-style: none;
+    margin: 20px 0;
+}
+
+.social img {
+width: 33px;
+}
+
+.list-links {
+    list-style: none;
+}
+
+.list-links li {
+    margin: 10px 20px;
+}
+
+.list-links li a {
+    display: block; /*deixa o que tem dentro em blocos*/
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(2,0,36);
+    font-weight: bold;
+}
+
+.list-links li a span {
+    display: block;
+    color: grey;
+    margin-top: 10px;
+    font-weight: 200;
+}
+/*span serve para formatar um determinado texto que voce queira*/
