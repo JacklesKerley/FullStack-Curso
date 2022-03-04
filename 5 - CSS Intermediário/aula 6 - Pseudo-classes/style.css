@@ -1,0 +1,47 @@
+a {
+    color: red;
+}
+
+a:hover {
+    color: green;
+    font-weight: bold;
+}/*quando passar o mouse por cima*/
+
+a:visited{
+    color: yellow;
+}/*fica amarelo quando o usuário clicar*/
+
+/*a:active{}quando clicar em algo*/
+
+.caixa {
+    display: none;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+
+a:hover + .caixa {
+    display: block;
+}/*mostra a caixa quando voce clica no link "a"*/
+
+.caixa:hover {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+Ul li:first-child {
+    color: red;
+}
+
+Ul li:last-child {
+    color: blue;
+}
+
+.exemplo p:first-child {
+    color: red
+}
+
+.exemplo p:nth-child(5) {
+    color: aquamarine;
+}

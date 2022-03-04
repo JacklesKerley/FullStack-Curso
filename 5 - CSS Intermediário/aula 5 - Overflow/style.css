@@ -1,0 +1,6 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    overflow: auto;/*caixa de rolagem no texto que esta maior que a caixa div*/
+}

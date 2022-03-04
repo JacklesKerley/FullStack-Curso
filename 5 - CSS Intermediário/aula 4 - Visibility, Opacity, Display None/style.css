@@ -1,0 +1,22 @@
+body {
+    background: url(https://t5z6q4c2.rocketcdn.me/wp-content/uploads/2020/03/universo-o-que-e-origem-principais-elementos-e-curiosidade-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+ul {
+    background-color: gray;
+    padding: 5px;
+    text-align: right;
+    opacity: 0.7;
+}
+
+/*Display: None > deixa o elemento oculto*/
+/*Visibility: hiden > deixa o conteudo oculto porem continua ocupando o espaço do display*/
+/*Opacity: 0 totalmente invisil e 1 totalmente visivel*/
+
+ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}

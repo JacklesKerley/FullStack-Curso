@@ -1,0 +1,29 @@
+.exemplo {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.exemplo1 p.red {
+    color: red;
+} /*combinator*/
+
+.margin {
+    margin: 50px;
+}
+
+h1, h2, h3 {
+    color: green;
+} /*tambem serve para classes: class1, class2...*/
+
+.exemplo2 > p {
+    color: blue;
+} /*aplica somente nos filhos do ex2*/
+
+.exemplo3 + p {
+    color: grey;
+}/*aplica apenas a proxima tag "irmão" da tag que estamos aplicando o css*/
+
+.exemplo4 ~ p {
+    color: goldenrod;
+}/*aplica a todas tags "irmão" que estão após a tag informada*/

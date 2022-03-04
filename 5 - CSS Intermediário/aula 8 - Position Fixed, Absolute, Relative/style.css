@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.quadrado {
+    position: fixed; /*fica totalmente parado, bom para menus, figura de link whatsapp*/
+    width: 50px;
+    height: 50px;
+    background: black;
+    right: 25px;
+    bottom: 25px;
+    color: white;
+    font-size: 12px;
+}
+
+.circulo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: black;
+    top: 150px;
+    left: 150px;
+    border-radius: 50%;
+    color: white;
+    font-size: 12px;
+}
+
+p {
+    margin: 45px;
+    width: 400px;
+}
