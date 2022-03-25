@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex; /*inserido*/
+    justify-content: center; /*inserido*/
+    align-items: center; /*inserido*/
+    width: 100%; /*inserido*/
+    height: 100vh; /*inserido*/ /*deixa o  background na proporção de 100%da tela seja ela qual for*/
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center center; */
+    /* background-attachment: fixed; */
+    font-family: 'Lato', sans-serif;
+    /* text-align: center; */
+    color: white;
+    /* position: relative; */
+}
+
+.conteudo {
+    /* margin: 110px auto; */
+    max-width: 800px;/*pode utilizar em px ex. 50%*/
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}/*inserido*/
+
+.title {
+    /* margin: 15px auto 0px; */
+    margin-bottom: 10px;/*inserido*/
+    font-size: 50px;
+    font-weight: 700;/*inserido*/
+}
+
+.sub-title {
+    font-size: 40px;
+    font-weight: 700;/*inserido*/
+    margin-bottom: 50px;
+}
+
+.texto {
+    /* margin-top: 25px; */
+    margin-bottom: 15px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.nome, .email {
+    display: block;/*inserido*/
+    width: 90%;
+    max-height: 35px;
+    outline: none;/*inserido*/
+    border: none;/*inserido*/
+    padding: 16px;/*inserido*/
+    margin: 0 auto 5px auto;/*inserido*/
+    border-radius: 5px;
+}
+
+.check {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.btn {
+    background: #1d48ec;
+    color: white;
+    font-size: 15px;
+    width: 80%;
+    /* height: 35px; */
+    border-radius: 5px;
+    border: #1d48ec;
+    margin: 30px auto;/*inserido*/
+    padding: 10px;/*inserido*/
+}
+
+.btn:hover { 
+    background: #2d53eb;
+    cursor: pointer;
+}
