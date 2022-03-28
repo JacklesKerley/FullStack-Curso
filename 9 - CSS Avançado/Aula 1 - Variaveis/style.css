@@ -1,0 +1,22 @@
+/*para criação de variavel é utilizado --*/
+
+:root {
+    --color-primary: rgb(87, 20, 20);
+    --color-secundary: rgb(87, 28, 39);
+
+    --spacing: 16px;
+}
+
+h1 {
+    color: var(--color-primary);
+}
+
+p {
+    color: var(--color-primary);
+}
+
+button {
+    background: var(--color-primary);
+    color: white;
+    margin: var(--spacing);
+}

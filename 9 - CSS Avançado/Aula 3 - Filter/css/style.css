@@ -1,0 +1,5 @@
+img {
+    filter: blur(10px);
+}/*tambem utilizado em texto */
+
+/*exemplos: https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_filter&preval=drop-shadow(8px%208px%2010px%20gray)*/

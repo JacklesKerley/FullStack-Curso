@@ -1,0 +1,20 @@
+body {
+    margin: 100px;
+}
+
+.box {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    transition-duration: 400ms;
+    transition-property: width background-color;/*propiedade que deseja aplicar o transition, quando não é informado a propriedade por padrão ela coloca All*/
+    transition-timing-function: ease-in;
+    transition-delay: 500ms;
+
+    /* transition: width 400ms ease-in 500ms; pode ser utilizado dessa forma*/
+}
+
+.box:hover {
+    background-color: red;
+    width: 600px;
+}

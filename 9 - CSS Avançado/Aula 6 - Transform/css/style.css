@@ -1,0 +1,15 @@
+body {
+    margin: 100px;
+}
+
+.box {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    transition-duration: 500ms;
+}
+
+.box:hover {
+    background-color: red;
+    transform: rotate(360deg) scale(2, 2);/*scale utiliza a transformação a partir do meio do objeto*/
+}
