@@ -1,0 +1,41 @@
+body {
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: ;
+    justify-content: spa;
+    flex-wrap: wrap;
+    /* align-items: center; só funciona quando o flex direction estiver como row, e o papel do align itens é alinhar de forma horizontal
+    
+    align-content: flex-end; alinhamento na vertical */
+
+    background-color: silver;
+    height: 600px;
+}
+
+.caixa {
+    
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    align-self: center; /*define o alinhamento somente do item, é preciso que a tag pai não esteja com align*/
+    background-color: red;
+}
+
+.blue {
+    order: -1; /*defini a ordem a ser seguida, todos partem da posição 0*/
+    background-color: blue;
+}
+
+.yellow {
+    flex-grow: 2; /*define um tamanho x o tamanho real*/
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}

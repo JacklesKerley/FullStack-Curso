@@ -1,0 +1,37 @@
+body {
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center; /*só funciona quando o flex direction estiver como row, e o papel do align itens é alinhar de forma horizontal*/
+    
+    align-content: center; /*alinhamento na vertical*/
+
+    background-color: silver;
+    height: 600px;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
