@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 400px) {
+    body {
+        background-color: red;
+    }
+
+    p {
+        font-size: 30px;
+    }
+} /*aplica quando a tela tiver o maximo de 400px*/
+
+@media (min-width: 401px) and (max-width: 600px){
+    body {
+        background-color: blue;
+    }
+
+    p {
+        font-size: 30px;
+    }
+} /*aplica quando a tela tiver entre o valor de 400 e 600px*/
