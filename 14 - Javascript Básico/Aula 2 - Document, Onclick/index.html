@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button onclick="document.querySelector('#lampada').src = '/img/lampada_ligada.gif'" style="cursor: pointer;">Acender</button> <!--Onclick é um evento-->
+
+    <img id="lampada" src="/img/lampada_desligada.gif">
+
+    <button onclick="document.querySelector('#lampada').src = '/img/lampada_desligada.gif'" style="cursor: pointer;">Apagar</button>
+
+    <!-- <img src="/img/lampada_ligada.gif"> -->
+    
+</body>
+</html>
