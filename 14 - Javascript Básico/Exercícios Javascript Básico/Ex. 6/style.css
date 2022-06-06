@@ -1,0 +1,24 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.divPai {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto;
+}
+
+.divPai > div {
+    background-color: grey;
+    padding: 25px;
+    width: 28%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px black;
+}
+
+p {
+    margin-top: 15px;
+}
