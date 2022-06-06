@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/*não é necessário colocar rootpara declarar variavel, e no momento de informar a variavel não precisa colocar var*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+
+/*Pode utilizar parametos predefinidos*/
+/* @include reset-list(10px, 10px, circle) caso não defina os valores serão utilizados os declarados nas variáveis */
+.container .box .danger, .container .box .warning, .container .box .success {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 2px black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.container .box {
+  width: 30%;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  /*utiliza o & para elementos irmão*/
+}
+.container .box.active {
+  background-color: red;
+}
+.container .box h2 {
+  font-size: 22px;
+}
+.container .box p {
+  font-size: 18px;
+}
+.container .box p.hidden {
+  display: none;
+}
+.container .box a {
+  color: green;
+}
+.container .box a:hover {
+  color: yellow;
+}
+.container .box a:hover + p.hidden {
+  display: block;
+}
+.container .box ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container .box .success {
+  background-color: green;
+}
+.container .box .warning {
+  color: black;
+  background-color: yellow;
+}
+.container .box .danger {
+  background-color: red;
+}/*# sourceMappingURL=main.css.map */

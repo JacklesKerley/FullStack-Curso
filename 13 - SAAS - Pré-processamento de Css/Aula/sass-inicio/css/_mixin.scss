@@ -1,0 +1,31 @@
+// @mixin reset-list {
+//     margin: 0;
+//     padding: 0;
+//     list-style: none;
+// }
+
+@mixin reset-list($margin: 0, $padding: 0, $style: none) {
+    margin: $margin;
+    padding: $padding;
+    list-style: $style;
+} 
+
+/*Pode utilizar parametos predefinidos*/
+
+/* @include reset-list(10px, 10px, circle) caso não defina os valores serão utilizados os declarados nas variáveis */
+
+@mixin bg-effect($effect) {
+    @if $effect == success {
+        background-color: green;
+    }
+    @else if $effect == warning {
+        color: black;
+        background-color: yellow;
+    }
+    @else if $effect == danger {
+        background-color: red;
+    }
+    @else {
+        background-color: white;
+    }
+}
